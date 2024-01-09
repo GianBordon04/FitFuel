@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2bc94;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+h2 {
+    width: 150px;
+    background-color: #722620;
+    color: #de8a0d;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+h3 {
+    color: #de8a0d;
+}
+
+
+
+.subtitulos-comida {
+    width: 130px;
+}
+
+section div h3 {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #722620;
+}
+
+.introduccion {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 25px;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.introduccion-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen-sandwich {
+    width: 400px;
+    height: 400px;
+    border-radius: 3px;
+}
+
+.elementos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 10px;
+}
+
+
+.elementos-informacion {
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    font-size: small;
+}
+
+.imagen-contenido {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.elementos-informacion-categorias {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 7px;
+    margin: 10px;
+    background-color: #722620;
+    color: white;
+}
+
+@media (max-width: 350px) {
+
+    .introduccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    
+
+    .container-nav{
+        font-size:11px;
+    }
+
+    .imagen-sandwich{
+        width: 300px;
+        height: 300px;
+        align-items: center;
+    }
+
+    .imagen-contenido{
+        width: 280px;
+        height: 280px;
+        align-items: center;
+    }
+
+    header nav ul {
+        font-size: 11px;
+        gap: 11px;
+    }
+
+    .container-subtitulos{
+        text-align: center;
+        font-size: small;
+        }
+
+    .subtitulos-2{
+        padding: 10px;
+        width: 300px;
+    }
+
+    .elementos-informacion{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .input{
+    width: 90%;
+    }
+}
