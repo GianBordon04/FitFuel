@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
+$primary-color:#190203;
+$secondary-color: #722620;
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +20,7 @@ h1 {
 h2{
 width: 150px;
 background-color:#722620;
-color: #de8a0d;
+color: #de8a0d !important;
 border-radius: 3px;
 padding: 5px;
 }
@@ -29,4 +31,69 @@ color: #de8a0d;
 
 article{
     font-size: small;
+}
+
+@media (max-width: 350px) {
+    .introduccion {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
+    .container-nav {
+      font-size: 11px;
+    }
+    .imagen-sandwich {
+      width: 300px;
+      height: 300px;
+      align-items: center;
+    }
+    .imagen-contenido {
+      width: 280px;
+      height: 280px;
+      align-items: center;
+    }
+    header nav ul {
+      font-size: 11px;
+      gap: 11px;
+    }
+    .container-subtitulos {
+      text-align: center;
+      font-size: small;
+    }
+    .subtitulos-2 {
+      padding: 10px;
+      width: 300px;
+    }
+    .elementos-informacion {
+      display: flex;
+      flex-direction: column;
+    }
+    .input {
+      width: 90%;
+    }
+
+    .mapas{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    }
+
+  .iframes{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+
+  .subtitulo-pedidos{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  }
+
+    
+  }
+

@@ -1,0 +1,22 @@
+.titulo-comidas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    padding: 2rem;
+    background-color: #f2bc94;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    color: #de8a0d;
+}
+
+.opciones-nutricion{
+display: flex;
+flex-direction: column;
+padding: 2rem;
+background-color: #f2bc94;
+}
+
