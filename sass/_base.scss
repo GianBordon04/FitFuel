@@ -53,8 +53,8 @@ article{
       align-items: center;
     }
     header nav ul {
-      font-size: 11px;
-      gap: 11px;
+      font-size: 10px;
+      gap: 5px;
     }
     .container-subtitulos {
       text-align: center;
@@ -90,6 +90,12 @@ article{
     padding: 1rem;
     flex-direction: column;
     align-items: center;
+
+  .carousel-slide{
+  height: 300px;
+  width:250px
+  }
+
   }
   
   }
