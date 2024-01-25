@@ -14,21 +14,20 @@ header nav ul{
     list-style: none;
     text-decoration: none;
     padding: 10px;
-    }
 
     li{
-    padding: 5px;
-    border-radius: 3px;
-    }
- 
-    .links{
+      padding: 5px;
+      border-radius: 3px;
+      }
+
+      .links{
         color: #de8a0d;
         text-decoration: none;
         &:hover{
             -webkit-animation: blink-2 0.9s both;
                 animation: blink-2 0.9s both;
             }
-
+    }
 
 }
 

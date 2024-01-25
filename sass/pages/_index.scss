@@ -95,6 +95,12 @@ article {
     margin: 10px;
     background-color: #722620;
     color: white;
+
+    &:hover{
+    box-shadow: 5px 5px 20px rgba($color: #000000, $alpha: 4.0);
+    transform: translateY(-3%);
+    transition: all 400ms ease;
+    }
 }
 
 @media (max-width: 350px) {
@@ -184,4 +190,5 @@ article {
       opacity: 1;
     }
   }
+  
   
